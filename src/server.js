@@ -22,7 +22,7 @@ class App {
           path: path.resolve(__dirname, '..', 'tmp', 'sessions.db')
         }),
         secret: '3lwebdev',
-        resave: false,
+        resave: true,
         saveUninitialized: true
       })
     )
